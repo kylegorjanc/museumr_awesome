@@ -5,5 +5,5 @@ var express 	= require('express'),
 
 router.get('/', function(req, res) {
 	
-	res.send(artists)
+	res.send(artists);
 });
