@@ -1,5 +1,5 @@
-var mongoose = require('mongoose');
-    Artist = require('./artists.js')
+var mongoose 	= require('mongoose'),
+    Artist 		= require('./artist.js');
 
 var paintingSchema = new mongoose.Schema({
   Title: String,
@@ -8,4 +8,4 @@ var paintingSchema = new mongoose.Schema({
 });
 
 var Painting = mongoose.model('Painting', paintingSchema);
-module.exports = P
+module.exports = Painting;
