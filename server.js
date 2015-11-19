@@ -24,5 +24,7 @@ app.listen(3000, function() {
  ///      ROUTES     ////////////////////////////
 ////////////////////////////////////////////////
 
-app.use('/', artists);
-app.use('/'), paintings;
+app.get('/', (req, res) => res.render('index.html'));
+
+app.use('/', Artist);
+app.use('/', Painting);
