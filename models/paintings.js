@@ -8,4 +8,4 @@ var paintingSchema = new mongoose.Schema({
 });
 
 var Painting = mongoose.model('Painting', paintingSchema);
-module.exports = P
+module.exports = Painting;
