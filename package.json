@@ -1,0 +1,25 @@
+{
+  "name": "museumr_awesome",
+  "version": "1.0.0",
+  "description": "### Learning Objectives",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylegorjanc/museumr_awesome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylegorjanc/museumr_awesome/issues"
+  },
+  "homepage": "https://github.com/kylegorjanc/museumr_awesome#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.6",
+    "morgan": "^1.6.1"
+  }
+}
